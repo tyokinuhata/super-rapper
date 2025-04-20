@@ -1,0 +1,20 @@
+[project]
+name = "super-rapper"
+version = "0.1.0"
+description = "Library for creating demo sound sources with method chain"
+authors = [
+    {name = "Kazuki Tobita",email = "kazukiti201@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [{ include = "super_rapper", from = "src" }]
