@@ -3,7 +3,7 @@ name = "super-rapper"
 version = "0.1.0"
 description = "Library for creating demo sound sources with method chain"
 authors = [
-    {name = "Kazuki Tobita",email = "kazukiti201@gmail.com"}
+    {name = "Kazukichi",email = "kazukiti201@gmail.com"}
 ]
 license = {text = "MIT"}
 readme = "README.md"
