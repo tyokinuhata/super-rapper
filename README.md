@@ -11,5 +11,5 @@
 # Install dependencies
 $ poetry install
 # Run tests
-$ poetry run python -m unittest discover tests
+$ poetry run pytest
 ```
