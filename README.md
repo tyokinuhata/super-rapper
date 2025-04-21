@@ -10,6 +10,8 @@
 ```bash
 # Install dependencies
 $ poetry install
+# Install pre-commit
+$ poetry run pre-commit install
 # Run tests
 $ poetry run pytest
 ```
