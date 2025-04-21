@@ -1,5 +1,6 @@
 from typing import Self
 
+
 class SuperRapper:
     def __init__(self) -> None:
         self.__bpm = 120

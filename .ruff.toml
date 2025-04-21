@@ -1,0 +1,16 @@
+target-version = "py313"
+line-length = 88
+src = ["src"]
+include = ["src/**/*.py", "tests/**/*.py"]
+
+[lint]
+select = ["E", "F", "I", "UP", "N", "B", "C4", "SIM", "TCH", "RUF", "ANN"]
+fixable = ["ALL"]
+
+[lint.isort]
+known-first-party = ["super_rapper"]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
